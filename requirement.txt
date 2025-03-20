@@ -1,5 +1,6 @@
 streamlit
-scikit-learn
-numpy
 pandas
-pickle
+numpy
+scikit-learn
+joblib
+pickle-mixin
