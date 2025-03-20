@@ -6,9 +6,9 @@ import pandas as pd
 st.title(" Welcome to Loan Approval System ")
 
 # loading the model
-with open('model.pkl','rb') as f:
+with open('./model.pkl','rb') as f:
     loaded_model=pickle.load(f)
-with open('scaler.pkl','rb') as f:
+with open('./scaler.pkl','rb') as f:
     scaler=pickle.load(f)
 
 # Prediction
